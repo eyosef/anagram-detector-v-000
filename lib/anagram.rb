@@ -14,7 +14,7 @@ class Anagram
     split_word << @word.split(//).sort.join
     nested << list_of_words.map { |array| array.split(//).sort.uniq.join}
     nested.flatten
-    nested.each_with_index {|letters, index| result << nested[index] if letters == split_word}
+    nested.each_with_index {|letters, index| result << nested[index] if letters == @word}
     result
 
 
