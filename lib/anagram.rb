@@ -11,9 +11,6 @@ class Anagram
     split_word = []
     split_word << word.split(//)
     nested << list_of_words.map { |array| array.split(//).uniq.sort}
-        if array == split_word
-          return array
-        end #if statement
         binding.pry
   end #method
 
