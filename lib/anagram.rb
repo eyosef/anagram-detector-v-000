@@ -12,7 +12,7 @@ class Anagram
     split_word << word.split(//).sort
     nested << list_of_words.map { |array| array.split(//).uniq.sort}
     nested.each_with_index do |letters, index|
-      print letters[index].flatten if letters[index] == split_word else print []
+      print letters[index].flatten if letters[index] == split_word
     end #each with index
   end #method
 
