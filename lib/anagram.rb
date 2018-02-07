@@ -15,12 +15,6 @@ class Anagram
     end
     binding.pry
 
-    nested_list.each_with_index do |array|
-      if array = split_word
-        true
-      end
-    end #each iteration
-
 
 
   end
