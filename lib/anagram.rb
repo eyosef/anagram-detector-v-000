@@ -10,7 +10,7 @@ class Anagram
     split_word = []
     nested_list = []
     nested_list << list_of_words.map {|string| string.split(//).uniq}
-    word.split(//)
+    split_word << word.split(//)
     binding.pry
   end
 
