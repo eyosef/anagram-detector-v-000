@@ -9,7 +9,7 @@ class Anagram
   def match(list_of_words)
     nested = []
     split_word = []
-    split_word << word.split(//)
+    split_word << word.split(//).sort
     nested << list_of_words.map { |array| array.split(//).uniq.sort}
         binding.pry
   end #method
