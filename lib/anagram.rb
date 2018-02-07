@@ -15,7 +15,6 @@ class Anagram
           return array
         end #if statement
         binding.pry
-    end #map iteration
   end #method
 
 end #class
