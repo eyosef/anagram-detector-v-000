@@ -13,6 +13,7 @@ class Anagram
     split_word << word.split(//)
 
     nested_list.each do |array|
+    end #each iteration
 
 
 
