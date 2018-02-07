@@ -14,7 +14,7 @@ class Anagram
     nested << list_of_words.map { |array| array.split(//).uniq.sort}
     nested.each_with_index do |letters, index|
       if letters[index] == @word
-        
+
     end #each with index
   end #method
 
