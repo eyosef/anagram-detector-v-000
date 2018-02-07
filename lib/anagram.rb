@@ -12,8 +12,7 @@ class Anagram
     split_word << word.split(//)
     list_of_words.map do |string| string.split(//).uniq.sort
         split_word == string ? true : false
-    end
-    binding.pry
-  end
+    end #map iteration
+  end #method
 
 end #class
