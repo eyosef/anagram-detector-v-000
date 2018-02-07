@@ -11,7 +11,7 @@ class Anagram
     result = []
 
     nested << list_of_words.map { |array| array.split(//).sort.uniq.join}
-    nested.flatten.each_with_index {|word, index| result << word if word == @word}
+    nested.flatten.each_with_index {|word, index| result << word[index] if word == @word}
     result
   end #method
 end #class
