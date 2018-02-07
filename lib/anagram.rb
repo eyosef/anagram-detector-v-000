@@ -12,7 +12,8 @@ class Anagram
     nested_list << list_of_words.map {|string| string.split(//).uniq}
     split_word << word.split(//)
     binding.pry
-    nested_list.each do |array|
+    nested_list.each_with_index do |array|
+      if
 
     end #each iteration
 
