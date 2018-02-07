@@ -9,7 +9,7 @@ class Anagram
   def match(list_of_words)
     split_word = []
     split_word << word.split(//)
-    list_of_words.map do |array| array.split(//).uniq.sort
+    list_of_words.map { |array| array.split(//).uniq.sort}
         if array == split_word
           return array
         end #if statement
