@@ -17,5 +17,6 @@ class Anagram
         result << letters[index]
     end #each with index
   end #method
+  result
 
 end #class
