@@ -8,12 +8,12 @@ class Anagram
 
   def match(list_of_words)
     split_word = []
-    nested_list = []
     split_word << word.split(//)
     list_of_words.map do |array| array.split(//).uniq.sort
       array.each_line do |string|
         if string != split_word
           return []
+        elsif
         end #if statement
       end #each_line
     end #map iteration
