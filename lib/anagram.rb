@@ -10,7 +10,8 @@ class Anagram
     split_word = []
     nested_list = []
     split_word << word.split(//)
-    nested_list << list_of_words.map do |string| string.split(//).uniq
+    list_of_words.map do |string| string.split(//).uniq
+
     end
 
     nested_list.each_with_index do |array|
