@@ -16,7 +16,7 @@ class Anagram
       if letters == @word
         result << letters[index]
     end #each with index
+      result
   end #method
-  result
 
 end #class
