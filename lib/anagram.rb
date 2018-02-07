@@ -13,7 +13,7 @@ class Anagram
       array.each_line do |string|
         if string != split_word
           return []
-        elsif
+        elsif string == split_word
         end #if statement
       end #each_line
     end #map iteration
