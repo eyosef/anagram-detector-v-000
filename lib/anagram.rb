@@ -17,6 +17,7 @@ class Anagram
           return []
         end #if statement
       end #each_line
+      binding.pry
     end #map iteration
   end #method
 
