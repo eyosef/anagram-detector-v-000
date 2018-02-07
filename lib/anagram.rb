@@ -11,7 +11,7 @@ class Anagram
     nested_list = []
     split_word << word.split(//)
     list_of_words.map do |array| array.split(//).uniq.sort
-      array.each { |string| }
+      array.each { |string| string == split_word ? true : false }
     end #map iteration
   end #method
 
