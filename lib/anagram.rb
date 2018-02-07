@@ -16,7 +16,7 @@ class Anagram
     nested.flatten
     nested.each_with_index {|letters, index| result << nested[index] if letters == split_word}
     result
-    binding.pry
+
 
   end #method
 
