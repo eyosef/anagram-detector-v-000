@@ -13,6 +13,7 @@ class Anagram
         if array == split_word
           return array
         end #if statement
+        binding.pry
     end #map iteration
   end #method
 
