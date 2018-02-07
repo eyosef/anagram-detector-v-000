@@ -9,7 +9,7 @@ class Anagram
   def match(list_of_words)
     #nested_array = []
     list_of_words.map {|string| string.split.uniq}
-    list_of_words.each {|word| word.split(/\w/)
+    list_of_words.each {|word| word.split(/\w/)}
     binding.pry
   end
 
