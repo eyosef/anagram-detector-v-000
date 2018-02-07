@@ -11,9 +11,9 @@ class Anagram
     split_word << word.split(//)
     list_of_words.map do |array| array.split(//).uniq.sort
       array.each_line do |string|
+        binding.pry
         if string == split_word
           return string
-                binding.pry
         elsif string != split_word
           return []
         end #if statement
