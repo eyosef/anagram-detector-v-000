@@ -9,6 +9,7 @@ class Anagram
   def match(list_of_words)
     list_of_words.map {|string| string.split(//).uniq}
     word.split(//)
+    binding.pry
   end
 
 end
