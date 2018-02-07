@@ -14,7 +14,7 @@ class Anagram
         if string != split_word
           return []
         elsif string == split_word
-          return string
+          return split_word
         end #if statement
       end #each_line
     end #map iteration
