@@ -8,7 +8,7 @@ class Anagram
 
   def match(list_of_words)
     nested_array = []
-    nested_array << list_of_words.map {|string| string.split.uniq}
+    list_of_words.map {|string| string.split.uniq}
 
     binding.pry
   end
