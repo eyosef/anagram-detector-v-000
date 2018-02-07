@@ -16,7 +16,6 @@ class Anagram
       if array = split_word
         true
       end
-
     end #each iteration
 
 
