@@ -12,7 +12,7 @@ class Anagram
     list_of_words.map do |array| array.split(//).uniq.sort
       array.each_line do |string|
         binding.pry
-        if string == split_word
+        if array == split_word
           return string
         elsif string != split_word
           return []
