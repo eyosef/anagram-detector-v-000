@@ -12,6 +12,8 @@ class Anagram
     nested_list << list_of_words.map {|string| string.split(//).uniq}
     split_word << word.split(//)
 
+
+
   end
 
 end
