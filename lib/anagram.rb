@@ -13,6 +13,7 @@ class Anagram
     list_of_words.map do |string| string.split(//).uniq
 
     end
+    binding.pry
 
     nested_list.each_with_index do |array|
       if array = split_word
