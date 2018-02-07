@@ -9,10 +9,12 @@ class Anagram
   def match(list_of_words)
     nested = []
     split_word = []
+    result = []
     split_word << word.split(//).sort
     nested << list_of_words.map { |array| array.split(//).uniq.sort}
     nested.each_with_index do |letters, index|
-      print nested[letters][index] if letters[index] == @word
+      if letters[index] == @word
+        
     end #each with index
   end #method
 
