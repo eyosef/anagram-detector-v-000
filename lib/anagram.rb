@@ -11,7 +11,7 @@ class Anagram
     split_word << word.split(//)
     list_of_words.map do |array| array.split(//).uniq.sort
         if array == split_word
-          return string
+          return array
         end #if statement
     end #map iteration
   end #method
