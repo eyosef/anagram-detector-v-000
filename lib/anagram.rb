@@ -10,6 +10,7 @@ class Anagram
     nested_array = []
     nested_array << list_of_words.map {|string| string.split.uniq}
     nested_array.scan(/\w/)
+    binding.pry
   end
 
 end
