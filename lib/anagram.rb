@@ -11,10 +11,10 @@ class Anagram
     split_word << word.split(//)
     list_of_words.map do |array| array.split(//).uniq.sort
       array.each_line do |string|
-        if string != split_word
-          return []
-        elsif string == split_word
-          return split_word
+        if string == split_word
+          return string
+        elsif string != split_word
+          return []]
         end #if statement
       end #each_line
     end #map iteration
