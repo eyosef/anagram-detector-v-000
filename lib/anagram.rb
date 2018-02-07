@@ -14,8 +14,6 @@ class Anagram
         binding.pry
         if array == split_word
           return string
-        elsif string != split_word
-          return []
         end #if statement
       end #each_line
     end #map iteration
